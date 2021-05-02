@@ -1,0 +1,188 @@
+header{
+	padding: 1%;
+	background: dimgray;
+	width: 99.5%;
+	margin-left: -1%;
+	margin-top: -0.6%;
+	margin-bottom: 15px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.header_ul{
+	list-style-type: none;
+	padding: 1%;
+	font-family: helvetica;
+}
+
+.header_li > li{
+	margin-top: -1.7%;
+	float: left;
+	padding: 1%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+
+}
+
+.header_li_hover > li:hover{
+	background: palegoldenrod;
+
+}
+
+.header2{
+	text-align: center;
+	margin-left: 1%;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.header2 > input[type=text] {
+  width: 280px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  margin-bottom: 50px;
+  font-family: "FontAwesome";
+}
+
+.font-control{
+	font-family: "FontAwesome";
+}
+
+.header2 > input[type=text]:focus {
+  width: 98.2%;
+}
+
+.parallax {
+  /* Gambar */
+  background-image: url('world_by_nasa.jpg');
+
+  /* Tingginya*/
+  height: 150%; 
+
+  /* Buat Scrolling Eppect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+
+}
+
+body, html {
+  height: 100%;
+}
+
+aside{
+	background: white;
+	opacity: 0.9;
+	/*width: 30%;*/
+	margin-left: 15px;
+	font-family: helvetica;
+	border-radius: 25px;
+	padding: 1%;
+	float: left;
+	display: block;
+	margin-right: 30px;
+}
+
+aside > h1 {
+	text-align: center; 
+}
+
+aside > ol > li{
+	text-align: left;
+}
+main{
+	display: inline-block;
+	background-color: azure;
+	float : right;
+}
+
+bg{
+	width: 100%;
+	background-color: darkslategray;
+	display: block;
+	opacity: 1;
+	height: 100%;
+	background-position: center;
+	border-radius: 25px;
+}
+
+article{
+	background: white;
+	opacity: 0.9;
+	font-family: helvetica;
+	float: left;
+	display: block;
+	border-radius: 25px;
+	height: 100%;
+	
+}
+/*.element::-webkit-scrollbar { width: 0 !important }*/
+
+article > h1 {
+	text-align: center;
+	font-size: 28px;
+	padding-bottom:20px;
+}
+
+article > p{
+	text-align: left;
+	margin-left: 20px;
+}
+coba{
+	display: grid;
+	grid-template-columns: 30% 60%;
+	margin-bottom: 5%;
+}
+footer{
+	position : static;
+	background-color: dimgray;
+	float : top;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 101.15%;
+    overflow: hidden;
+    margin-left: -0.6%;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+footer > p{
+	text-align: center;
+}
+
+footer > ol > li{
+	float: left;
+}
+html{
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow: auto;
+	
+}
+/*html::-webkit-scrollbar{
+	width: 0 !important;
+}*/
+
+footer > center > p > a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border: 1px solid gray;
+	background: gray;
+	border-radius: 25px;
+}
+footer > center > p > a:hover{
+	background: palegoldenrod;
+}
